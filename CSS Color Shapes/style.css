@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+   max-width: 1400px;
+    display: flex;
+    justify-content: center;
+   
+}
+.first_sec{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(17, 172, 224);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.small_rec{
+    width: 80px;
+    height: 50px;
+    background-color: black;
+}
+.oval_outer{
+    display: flex;
+}
+.oval_shape{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border-radius: 60%;
+}
+.circle_rectangle{
+    height: 400px;
+    width: 1200px;
+    gap: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.circle{
+    background-color: darkblue;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.rectangle{
+    background-color: darkblue;
+    height: 120px;
+    width: 450px;
+
+}
+.grid_box{
+    display: flex;
+   
+    gap: 30px;
+}
+.grid-item{
+    border-radius: 130px;
+}
+.grid-item:hover{
+    background-color: white;
+}
+.grid-container{
+    height: 400px;
+    width: 1200px;
+    column-gap: 20px;
+    row-gap: 30px;
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    background-color: darkblue;
+    justify-content: center;
+    align-items: center;
+}
+.grid-item{
+    width: 120px;
+    height: 144px;
+    background-color: rgb(36, 176, 236);
+    border-radius: 5px;
+}
+.container_inner{
+    height: 300px;
+    width: 1200px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+   
+}
+.small_circle{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(36, 176, 236);
+    border-radius: 50%;
+    margin-left: 1000px;
+  position: relative;
+  top: 40px;
+  right: 30px;
+  border: 1px solid black;
+}
+.big_rectangle{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(36, 176, 236);
+    margin-left: 200px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    font-size: 12px;
+  
+}
+.big_rectangle p{
+    padding-top: 60px;
+    color: white;
+}
